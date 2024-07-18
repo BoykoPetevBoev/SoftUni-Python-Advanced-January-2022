@@ -1,10 +1,9 @@
 num = int(input())
 
-result = []
+result = set()
 
 for _ in range(num):
     name = input()
-    if name not in result:
-        result.append(name)
+    result.add(name)
 
 print(*result, sep="\n")
