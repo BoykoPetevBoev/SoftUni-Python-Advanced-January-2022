@@ -1,5 +1,5 @@
 from collections import deque
-from regular_exam.flower_finder_class import Flower
+from flower_finder_class import Flower
 
 found_flower = None
 vowels = deque(input().split(" "))
